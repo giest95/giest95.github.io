@@ -2,57 +2,109 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Alec Hooyman - Web Developer</title>
+<title>John Smith - Web Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 <style>
-  body { font-family: sans-serif; max-width: 1000px; margin: auto; padding: 2rem; }
-  h1 { color: #333; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    line-height: 1.6;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background: #fff;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #444;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 1.5rem;
+  }
+
+  a {
+    color: #007acc;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  header {
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  section {
+    margin-bottom: 2rem;
+  }
 </style>
 </head>
 <body>
 
-<h1>
-  Alec Hooyman
-</h1>
-<p>
-  Hello! I'm a WordPress and WooCommerce developer. I specialize in building custom themes, creating Wordpress based software, and solving tricky site issues. 
-  I'd like to think of myself as a digital craftsman. I like to build websites, tweak code, and ensure even the tiniest pixel lands where it should. 
-  Whether it’s a wedding site in Divi, an invoice portal, or syncing products in WooCommerce, you can usually find me diving in and debugging with precision.
-</p>
-<p>
-  I like to dig into problems and get my hands dirty. If something’s broken, I'll wrestle with it until it’s fixed. 
-  If I don’t know the answer, I'm quick to ask, because what matters most is getting it right.
-  My questions cut straight to the core, and I prefer solutions that work — no fluff. From aligning images to handling cron jobs, I'm methodical and deliberate.
-</p>
+<header>
+  <h1>John Smith</h1>
+</header>
 
-<h2>Projects</h2>
-<ul>
-  <li>
-    <strong>Kru Software</strong><br>
-    <p>Wordpress based employee portal. It allows employees to log in, see current work orders, and submit time cards. Admin are able to create work orders, add clients, and view submitted information.</p>
-    <p>The website functionality can be viewed at <a href="https://demo.krusoftware.com/">demo.krusoftware.com</a></p>
-  </li>
-  <li>
-    <strong>50+ Websites Created</strong><br>
-    <p>Building, testing, and maintenence of a multitude of websites in a plethora of industries.</p>
-    <p>For a look at some of our more recent sites, a list can be found at <a href="https://tuckercmdigital.com/our-work/">TCMD</a></p>
-  </li> 
-  <li>
-    <strong>Muscle Map</strong><br>
-    <p>Interactable display of the types of areas clients feel normally feel pain.</p>
-    <p>Can be viewed at <a href="https://bodyinnervation.com/#muscleMap">Muscle Map</a></p>
-  </li>
-  <li>
-    <strong>Postcard Order Customization</strong><br>
-    <p>WooCommerce plugin modification to allow only bulk orders in multiples of 12.</p>
-  </li>
-  <li>
-    <strong>Age Gate Cron Job Fix</strong><br>
-    <p>Resolved conflicts with an age gate plugin that prevented WordPress cron jobs from firing.</p>
-  </li>
-</ul>
+<section>
+  <p>Hello! I'm a WordPress and WooCommerce developer. I specialize in building custom themes, creating WordPress-based software, and solving tricky site issues. I like to think of myself as a digital craftsman: building websites, tweaking code, and ensuring even the tiniest pixel lands where it should. Whether it’s a wedding site in Divi, an invoice portal, or syncing products in WooCommerce, you can usually find me diving in and debugging with precision.</p>
 
-<h2>Contact</h2>
-<p>Email: <a href="mailto:alechooyman@gmail.com">alechooyman@gmail.com</a></p>
+  <p>I like to dig into problems and get my hands dirty. If something’s broken, I'll wrestle with it until it’s fixed. If I don’t know the answer, I'm quick to ask—what matters most is getting it right. My questions cut straight to the core, and I prefer solutions that work—no fluff. From aligning images to handling cron jobs, I'm methodical and deliberate.</p>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <ul>
+    <li>
+      <strong>Kru Software</strong><br>
+      <p>WordPress-based employee portal. Employees log in to view current work orders and submit time cards. Admins can create work orders, manage clients, and view submitted data. <a href="https://demo.krusoftware.com/" target="_blank">demo.krusoftware.com</a></p>
+    </li>
+    <li>
+      <strong>50+ Websites Created</strong><br>
+      <p>Building, testing, and maintaining a wide range of websites across different industries. For a look at some of our recent work, see <a href="https://tuckercmdigital.com/our-work/" target="_blank">TCMD</a>.</p>
+    </li> 
+    <li>
+      <strong>Muscle Map</strong><br>
+      <p>Interactive display highlighting common areas of client pain. <a href="https://bodyinnervation.com/#muscleMap" target="_blank">Muscle Map</a></p>
+    </li>
+    <li>
+      <strong>Postcard Order Customization</strong><br>
+      <p>Modified WooCommerce to only allow bulk orders in multiples of 12 when the user is logged in. Additionally, discounted prices are shown to logged-in users, with the full price visible when logged out.</p>
+    </li>
+    <li>
+      <strong>Age Gate Cron Job Fix</strong><br>
+      <p>Resolved conflicts with an age gate plugin that was preventing WordPress cron jobs from firing.</p>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:johnsmith@gmail.com">johnsmith@gmail.com</a></p>
+</section>
 
 </body>
 </html>
